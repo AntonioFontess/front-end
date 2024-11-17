@@ -4,10 +4,7 @@ body{
     background-color: #C5C5C5;
     height: 100vh;
     width: 100%;
-}
-
-#login{
-    background-color: #3A6FC5;
+    flex: 1;
 }
 
 header{
@@ -19,53 +16,25 @@ header{
     color:#D3D3D3;
 }
 
-#cadastro{
-    background-color: #9e9e9e;
-}
-
-ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-h1, h2, h3, h4, h5{
-    font-family: 'Montserrat', sans-serif;
-}
-
-p{
-    font-family: 'Poppins', sans-serif;
-}
-
-ul li{
-    margin-left: 25px;
-    list-style-type: none;
-}
-
-form{
-    display: flex;
-    flex-direction: column;
-    padding: 10vh;
-}
-
-form input{
-    margin: 10px;
-}
-
 main{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 15px 32px;
 }
 
-.sectionContainer{
-    margin: 15px;
+h1{
+    font-size: 45px;
+    font-weight: 700;
 }
 
-#submitLogin{
-    background-color: #191545;
-    color: white;
-    cursor: pointer;
+h2{
+    font-size: 34px;
+    font-weight: 700;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
 }
 
 footer{
@@ -78,4 +47,108 @@ footer{
 a{
     text-decoration: none;
     color: inherit;
+}
+
+label{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 2vh 5vh;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul li{
+    margin-left: 25px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+ul li:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Montserrat', sans-serif;
+}
+
+form input{
+    margin: 10px 0px;
+    text-decoration: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 1vh;
+
+}
+
+.demolay{
+    text-decoration: underline;
+    text-decoration-color: #FF003B;
+}
+
+.abrigo{
+    text-decoration: underline;
+    text-decoration-color: #23287D;
+}
+
+.inputLogin{
+    border: 2px solid #23287D;
+}
+
+.inputCadastro{
+    border: 2px solid #292828;
+}
+
+.sectionContainer{
+    margin: 15px;
+    width: 90%;
+}
+
+#demolayAbrigo{
+    width: 110%;
+}
+
+#submitLogin{
+    padding: 1.5vh;
+    background-color: #150e5e;
+    color: white;
+    cursor: pointer;
+}
+
+#submitCreate{
+    padding: 1.5vh;
+    background-color: #1a1a1d;
+    color: white;
+    cursor: pointer;
+}
+
+#submitForget{
+    padding: 1.5vh;
+    background-color: #3e3e4e;
+    color: white;
+    cursor: pointer;
+}
+
+#chamada{
+    font-size: 20px;
+    font-weight: 400;
+}
+#login{
+    background-color: #3A6FC5;
+    margin-left: 65px;
+    border-radius: 18px;
+}
+
+#cadastro{
+    background-color: #9e9e9e;
+    border-radius: 18px;
 }

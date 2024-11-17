@@ -22,63 +22,53 @@
     </header>
 
     <main>
-        <section class="sectionContainer">
-            <h1>Demolay e Abrigo Bom Pastor</h1>
-            <h2>Nos ajude nesta causa</h2>
-            <p>Faça você parte da arrecadação de alimentos para o Abrigo Bom Pastor <br>Entre em contato conosco para saber como ajudar. Ou acesse sua conta para acompanhar suas doações e os impactos positivos que elas estão tendo (:</p>
+        <section class="sectionContainer" id="demolayAbrigo">
+            <h1><span class="demolay">Demolay</span> e <span class="abrigo">Abrigo Bom Pastor</span></h1>
+            <h2>Nos ajude nesta causa!!</h2>
+            <p id="chamada"><strong>Faça parte</strong> da arrecadação de alimentos para o Abrigo Bom Pastor.<br>Entre em contato conosco para saber como ajudar, ou acesse sua conta para acompanhar suas doações e os impactos positivos que elas estão tendo (:</p>
         </section>
 
         <section class="sectionContainer" id="login">
             <form>
                 <h2>Acesse sua conta</h2>
-                <!--email, senha e envio-->
-                <label for="email">E-mail:</label>
-                <input type="email" name="email" id="email" required>
+                <label for="email">Informe seu e-mail:</label>
+                <input class="inputLogin" type="email" name="email" id="email" placeholder="E-mail" required>
         
-                <label for="senha">Senha:</label>
-                <input type="password" name="senha" id="senha" required>
+                <label for="senha">Informe sua senha:</label>
+                <input class="inputLogin" type="password" name="senha" id="senha" placeholder="Senha" required>
         
-                <input id="submitLogin" type="submit" value="Enviar">
+                <input id="submitLogin" type="submit" value="Entrar">
+                <input id="submitForget" type="submit" value="Recuperar senha">
             </form>
         </section>
 
         <section class="sectionContainer" id="cadastro">
-            <form>
-                    <!--nome, email, senha X2 , telefone, enviar-->
-                    
+            <form>     
                     <h2>Faça seu cadastro</h2>
 
-                    <label for="nome">Nome completo:</label>
-                    <input type="text" name="nome" id="nome" required>
+                    <label for="nome">Qual seu nome:</label>
+                    <input class="inputCadastro" type="text" name="nome" id="nome" placeholder="Nome" required>
 
-                    <label for="email">E-mail:</label>
-                    <input type="email" name="email" id="email" required>
+                    <label for="email">Escolha seu e-mail:</label>
+                    <input class="inputCadastro" type="email" name="email" id="email" placeholder="E-mail" required>
 
-                    <label for="senha">Senha:</label>
-                    <input type="password" name="senha" id="senha" required>
+                    <label for="senha">Escolha sua senha:</label>
+                    <input class="inputCadastro" type="password" name="senha" id="senha" placeholder="Senha" required>
 
-                    <label for="senha">Senha:</label>
-                    <input type="password" name="senha" id="senha" required>
+                    <label for="senha">Confirme a senha:</label>
+                    <input class="inputCadastro" type="password" name="senha" id="senha" placeholder="Confirmar senha" required>
 
-                    <input type="submit" value="Enviar">
+                    <input class="inputCadastro" type="submit" id="submitCreate" value="Cadastrar">
             </form>
         </section>
     </main>
 
+    <hr>
+
     <footer>
-        <h5>Arrecadação para o Abrigo Bom Pastor</h5>
+        <h5>Arrecadação para o Abrigo Bom Pastor X Demolay</h5>
         <p>Desenvolvido por <a href="https://www.linkedin.com/in/antonio-fontes-15a1482b6/">Antonio Darienço</a> e <a href="https://www.linkedin.com/in/felipeps-devops/"> Felipe Seugling</a></p>
     </footer>
 
 </body>
 </html>
-
-<!--            <label for="interesse">Conteúdo de interesse:</label>
-            <select name="interesse" id="interesse">
-                <option value="javascript">JavaScript</option>
-                <option value="html">HTML</option>
-                <option value="css">CSS</option>
-            </select>
-    
-            <label for="opiniao">Deixe sua opinião:</label>
-            <textarea name="opiniao" id="opiniao" rows="5" cols="30"></textarea>-->
