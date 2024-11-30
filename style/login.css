@@ -29,7 +29,7 @@ h1{
 }
 
 h2{
-    font-size: 34px;
+    font-size: 30px;
     font-weight: 700;
 }
 
@@ -81,13 +81,12 @@ h1, h2, h3, h4, h5{
     font-family: 'Montserrat', sans-serif;
 }
 
-form input{
-    margin: 10px 0px;
+form input, form select{
+    margin: 9px 0px;
     text-decoration: none;
     border-radius: 5px;
     outline: none;
-    padding: 1vh;
-
+    padding: 0.65vh;
 }
 
 .demolay{
@@ -118,21 +117,21 @@ form input{
 }
 
 #submitLogin{
-    padding: 1.5vh;
+    padding: 1.4vh;
     background-color: #150e5e;
     color: white;
     cursor: pointer;
 }
 
 #submitCreate{
-    padding: 1.5vh;
+    padding: 1.4vh;
     background-color: #1a1a1d;
     color: white;
     cursor: pointer;
 }
 
 #submitForget{
-    padding: 1.5vh;
+    padding: 1.4vh;
     background-color: #3e3e4e;
     color: white;
     cursor: pointer;
@@ -142,6 +141,7 @@ form input{
     font-size: 20px;
     font-weight: 400;
 }
+
 #login{
     background-color: #3A6FC5;
     margin-left: 65px;

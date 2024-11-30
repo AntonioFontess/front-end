@@ -58,6 +58,15 @@
                     <label for="senha">Confirme a senha:</label>
                     <input class="inputCadastro" type="password" name="senha" id="senha" placeholder="Confirmar senha" required>
 
+                    <label for="tipoContribuicao">Como você deseja contribuir?</label>
+                    <select class="inputCadastro" name="tipoContribuicao" id="tipoContribuicao" required>
+                        <option value="" selected disabled>Selecione uma opção</option>
+                        <option value="doacaoAlimentos">Doação de Alimentos</option>
+                        <option value="doacaoFinanceira">Doação Financeira</option>
+                        <option value="voluntariado">Voluntariado</option>
+                    </select>
+
+
                     <input class="inputCadastro" type="submit" id="submitCreate" value="Cadastrar">
             </form>
         </section>
