@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif; /* Texto usa Poppins */
     background-color: #f4f4f4;
     line-height: 1.6;
 }
@@ -16,7 +16,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #0056b3;
+    background-color: #0056b3; /* Azul */
     color: white;
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -30,6 +30,7 @@ header .logo img {
 header h1 {
     font-size: 2em;
     font-weight: bold;
+    font-family: 'Montserrat', sans-serif; /* Títulos usam Montserrat */
 }
 
 nav ul {
@@ -49,7 +50,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #f1c40f;
+    color: #f1c40f; /* Amarelo */
 }
 
 /* Conteúdo Principal */
@@ -57,7 +58,6 @@ main {
     padding: 50px 20px;
 }
 
-/* Seções */
 section {
     margin-bottom: 50px;
     padding: 40px;
@@ -67,52 +67,25 @@ section {
 }
 
 section h2 {
-    color: #0056b3;
+    color: #f1c40f; /* Amarelo */
     text-align: center;
     margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif; /* Títulos usam Montserrat */
 }
 
-section p, ul {
+section p {
     color: #333;
     font-size: 1.2em;
     text-align: center;
     margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif; /* Texto usa Poppins */
 }
 
-/* Imagens */
-.img-fluid {
-    max-width: 100%; /* Máxima largura de 100% do container */
-    height: auto;
-    display: block;
-    margin: 20px auto;
-}
-
-#sobre img,
-#projetos img,
-#como-ajudar img {
-    max-width: 50%; /* Reduzindo as imagens para 50% da largura do container */
-    margin: 20px auto;
-}
-
-/* Botões */
-.btn {
-    display: inline-block;
-    padding: 15px 30px;
-    background-color: #3498db;
-    color: white;
-    border-radius: 8px;
-    text-decoration: none;
-    font-size: 1.2em;
-    transition: background-color 0.3s ease;
-    margin-top: 20px;
-}
-
-.btn:hover {
-    background-color: #2980b9;
-}
-
-/* Lista de Como Ajudar */
 ul {
+    color: #333;
+    font-size: 1.2em;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
     list-style: none;
     display: flex;
     justify-content: center;
@@ -125,13 +98,47 @@ ul li {
 }
 
 ul li i {
-    color: #e63946;
+    color: #e63946; /* Vermelho para ícones */
     margin-right: 10px;
+}
+
+/* Imagens */
+.img-fluid {
+    max-width: 100%; /* Máxima largura de 100% do container */
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+#sobre img, 
+#projetos img, 
+#como-ajudar img {
+    max-width: 50%; /* Reduzindo as imagens para 50% da largura do container */
+    margin: 20px auto;
+    border: 3px solid #f1c40f; /* Moldura amarela na imagem */
+}
+
+/* Botões */
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #2ecc71; /* Verde */
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn:hover {
+    background-color: #27ae60; /* Um tom mais escuro de verde */
 }
 
 /* Rodapé */
 footer {
-    background-color: #0056b3;
+    background-color: #0056b3; /* Azul */
     color: white;
     padding: 30px;
     text-align: center;
@@ -140,10 +147,11 @@ footer {
 
 footer p {
     margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
 }
 
 footer a {
-    color: #e63946;
+    color: #f1c40f; /* Amarelo */
     text-decoration: none;
     font-weight: bold;
 }
@@ -177,11 +185,13 @@ footer .back-to-top:hover {
         padding: 12px 20px;
     }
 
-    .section {
+    section {
         padding: 20px;
     }
 
-    #sobre img, #projetos img, #como-ajudar img {
+    #sobre img, 
+    #projetos img, 
+    #como-ajudar img {
         max-width: 70%; /* Em telas menores, limitando as imagens a 70% */
     }
 
